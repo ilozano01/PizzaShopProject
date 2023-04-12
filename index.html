@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Pizza Shop</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>Welcome to the Pizza Shack</h1>
+<img
+src="https://cdn.pixabay.com/photo/2014/12/21/23/48/pizza-576085__340.
+png" alt="Pepperoni Pizza"/>
+<p>Please select toppings to add to your pizza by clicking on the
+buttons below. </p>
+<div>
+<button type="button" onclick=addPepperoni()>Click to add
+Pepperoni</button>
+<button type="button" onclick=addMushrooms()>Click to add
+Mushrooms</button>
+<button type="button" onclick=addPeppers()>Click to add
+Peppers</button><br>
+<button type="button" onclick=addMozzarella()>Click to add
+Mozzarella</button>
+<button type="button" onclick=addFeta()>Click to add
+Feta</button>
+<button type="button" onclick=addParmesan()>Click to add
+Parmesan</button>
+</div>
+<button id= "view" type="button" onclick=viewPizza()>View your
+finished pizza</button>
+<h3 id="pizza"></h3>
+<h3 id="toppings"></h3>
+<script src="script.js"></script>
+</body>
+</html>
